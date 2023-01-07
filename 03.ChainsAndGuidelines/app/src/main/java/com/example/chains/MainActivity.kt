@@ -1,4 +1,4 @@
-package com.androiddevs.chains
+package com.example.chains
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

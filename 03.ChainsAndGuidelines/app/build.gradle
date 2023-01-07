@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.chains'
+    namespace 'com.example.chains'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.chains"
+        applicationId "com.example.chains"
         minSdk 21
         targetSdk 33
         versionCode 1

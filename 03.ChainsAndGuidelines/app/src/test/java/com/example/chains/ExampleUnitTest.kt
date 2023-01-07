@@ -1,4 +1,4 @@
-package com.androiddevs.chains
+package com.example.chains
 
 import org.junit.Test
 
