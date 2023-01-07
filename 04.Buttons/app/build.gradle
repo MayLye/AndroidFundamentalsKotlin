@@ -7,11 +7,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.buttons'
+    namespace 'com.example.buttons'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.buttons"
+        applicationId "com.example.buttons"
         minSdk 21
         targetSdk 33
         versionCode 1

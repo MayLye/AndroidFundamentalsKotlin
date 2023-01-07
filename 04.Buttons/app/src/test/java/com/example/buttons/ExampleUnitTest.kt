@@ -1,4 +1,4 @@
-package com.androiddevs.buttons
+package com.example.buttons
 
 import org.junit.Test
 
