@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.constraintbasics'
+    namespace 'com.example.constraintbasics'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.constraintbasics"
+        applicationId "com.example.constraintbasics"
         minSdk 21
         targetSdk 33
         versionCode 1

@@ -1,4 +1,4 @@
-package com.androiddevs.constraintbasics
+package com.example.constraintbasics
 
 import org.junit.Test
 
