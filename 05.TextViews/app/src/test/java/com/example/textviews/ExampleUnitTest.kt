@@ -1,4 +1,4 @@
-package com.androiddevs.textviews
+package com.example.textviews
 
 import org.junit.Test
 

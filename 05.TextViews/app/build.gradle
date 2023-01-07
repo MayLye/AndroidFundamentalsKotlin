@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.textviews'
+    namespace 'com.example.textviews'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.textviews"
+        applicationId "com.example.textviews"
         minSdk 21
         targetSdk 33
         versionCode 1

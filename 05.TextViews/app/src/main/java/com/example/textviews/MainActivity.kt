@@ -1,4 +1,4 @@
-package com.androiddevs.textviews
+package com.example.textviews
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -18,6 +18,11 @@ class MainActivity : AppCompatActivity() {
             // we want to update the text on our textview.
             // insert the count by putting $.
             tvCount.text = "Let\'s count together: $count" // must put \ after apostrophe', otherwise it won't run.
+        }
+
+        btnCount2.setOnClickListener {
+            count += 5
+            tvCount.text = "Let\'s count together: $count"
         }
     }
 }
