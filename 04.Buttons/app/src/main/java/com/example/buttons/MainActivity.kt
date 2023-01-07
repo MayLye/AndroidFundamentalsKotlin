@@ -19,11 +19,17 @@ class MainActivity : AppCompatActivity() {
             // convert text to String by using toString()
             val firstName = etFirstName.text.toString()
             val lastName = etLastName.text.toString()
+            val gender = etGender.text.toString()
+            val age = etAge.text.toString()
             val birthDate = etBirthDate.text.toString()
             val country = etCountry.text.toString()
             // to find log, you need to import android.util.log. We can now insert the string that we extracted from the Edittext.
             // to insert string here, we add $.
-            Log.d("MainActivity", "$firstName $lastName, born on $birthDate, from $country just applied to the formula.")
+            Log.d("MainActivity", "$firstName $lastName, $gender, $age, born on $birthDate, from $country just applied to the formula.")
+            // to view Log.d message, go to Logcat below, type in MainActivity, and you will see the log messages on its right side.
         }
+
+
     }
+
 }
