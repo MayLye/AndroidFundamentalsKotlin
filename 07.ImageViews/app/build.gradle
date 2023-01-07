@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.imageviews'
+    namespace 'com.example.imageviews'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.imageviews"
+        applicationId "com.example.imageviews"
         minSdk 21
         targetSdk 33
         versionCode 1

@@ -1,4 +1,4 @@
-package com.androiddevs.imageviews
+package com.example.imageviews
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         btnAddImage.setOnClickListener {
             // our imageView id is ivImage.
             // add the function setImageResource, and then add in our image from our drawable folder.
-            ivImage.setImageResource(R.drawable.buddha_bg)
+            ivImage.setImageResource(R.drawable.walle_bg)
         }
     }
 }

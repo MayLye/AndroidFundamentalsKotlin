@@ -1,4 +1,4 @@
-package com.androiddevs.imageviews
+package com.example.imageviews
 
 import org.junit.Test
 
