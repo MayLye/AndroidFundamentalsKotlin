@@ -1,4 +1,4 @@
-package com.androiddevs.layoutbasics
+package com.example.layoutbasics
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

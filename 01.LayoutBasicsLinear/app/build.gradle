@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.layoutbasics'
+    namespace 'com.example.layoutbasics'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.layoutbasics"
+        applicationId "com.example.layoutbasics"
         minSdk 21
         targetSdk 33
         versionCode 1

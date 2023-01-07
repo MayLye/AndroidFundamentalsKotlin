@@ -1,4 +1,4 @@
-package com.androiddevs.layoutbasics
+package com.example.layoutbasics
 
 import org.junit.Test
 
