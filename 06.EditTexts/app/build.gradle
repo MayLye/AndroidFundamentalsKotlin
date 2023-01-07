@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.edittexts'
+    namespace 'com.example.edittexts'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.edittexts"
+        applicationId "com.example.edittexts"
         minSdk 21
         targetSdk 33
         versionCode 1

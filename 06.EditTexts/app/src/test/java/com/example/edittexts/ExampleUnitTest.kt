@@ -1,4 +1,4 @@
-package com.androiddevs.edittexts
+package com.example.edittexts
 
 import org.junit.Test
 

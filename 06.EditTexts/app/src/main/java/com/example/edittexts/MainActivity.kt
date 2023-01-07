@@ -1,4 +1,4 @@
-package com.androiddevs.edittexts
+package com.example.edittexts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -16,6 +16,13 @@ class MainActivity : AppCompatActivity() {
             // save the result in variable
             val result = firstNumber + secondNumber
             // set the result into textview
+            tvResult.text = result.toString()
+        }
+
+        btnMinus.setOnClickListener {
+            val firstNumber = etFirstNumber.text.toString().toInt()
+            val secondNumber = etSecondNumber.text.toString().toInt()
+            val result = firstNumber - secondNumber
             tvResult.text = result.toString()
         }
     }
