@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.intents'
+    namespace 'com.example.intents'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.intents"
+        applicationId "com.example.intents"
         minSdk 21
         targetSdk 33
         versionCode 1
