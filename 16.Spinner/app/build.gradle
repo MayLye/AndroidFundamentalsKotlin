@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.spinner'
+    namespace 'com.example.spinner'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.spinner"
+        applicationId "com.example.spinner"
         minSdk 21
         targetSdk 33
         versionCode 1

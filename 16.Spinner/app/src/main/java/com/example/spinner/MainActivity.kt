@@ -1,4 +1,4 @@
-package com.androiddevs.spinner
+package com.example.spinner
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

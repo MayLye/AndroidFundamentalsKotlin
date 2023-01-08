@@ -1,4 +1,4 @@
-package com.androiddevs.spinner
+package com.example.spinner
 
 import org.junit.Test
 
