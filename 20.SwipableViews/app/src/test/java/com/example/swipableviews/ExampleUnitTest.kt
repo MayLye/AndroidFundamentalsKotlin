@@ -1,4 +1,4 @@
-package com.androiddevs.swipableviews
+package com.example.swipableviews
 
 import org.junit.Test
 

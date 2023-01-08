@@ -1,4 +1,4 @@
-package com.androiddevs.swipableviews
+package com.example.swipableviews
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,7 +14,8 @@ class MainActivity : AppCompatActivity() {
         val images = listOf(
             R.drawable.kermit1,
             R.drawable.kermit2,
-            R.drawable.kermit3
+            R.drawable.kermit3,
+            R.drawable.walle_bg
         )
 
         // to make it swipe, we need ViewPager
