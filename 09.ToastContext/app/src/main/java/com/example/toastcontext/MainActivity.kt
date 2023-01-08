@@ -1,4 +1,4 @@
-package com.androiddevs.toastcontext
+package com.example.toastcontext
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

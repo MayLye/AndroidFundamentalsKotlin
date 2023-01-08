@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.toastcontext'
+    namespace 'com.example.toastcontext'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.toastcontext"
+        applicationId "com.example.toastcontext"
         minSdk 21
         targetSdk 33
         versionCode 1

@@ -1,4 +1,4 @@
-package com.androiddevs.toastcontext
+package com.example.toastcontext
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.androiddevs.toastcontext", appContext.packageName)
+        assertEquals("com.example.toastcontext", appContext.packageName)
     }
 }

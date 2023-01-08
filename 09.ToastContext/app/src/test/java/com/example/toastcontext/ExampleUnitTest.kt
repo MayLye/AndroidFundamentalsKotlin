@@ -1,4 +1,4 @@
-package com.androiddevs.toastcontext
+package com.example.toastcontext
 
 import org.junit.Test
 
