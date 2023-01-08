@@ -1,4 +1,4 @@
-package com.androiddevs.implicitintents
+package com.example.implicitintents
 
 import android.app.Activity
 import android.content.Intent

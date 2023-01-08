@@ -1,4 +1,4 @@
-package com.androiddevs.implicitintents
+package com.example.implicitintents
 
 import org.junit.Test
 
