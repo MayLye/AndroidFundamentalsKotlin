@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.toolbarmenus'
+    namespace 'com.example.toolbarmenus'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.toolbarmenus"
+        applicationId "com.example.toolbarmenus"
         minSdk 21
         targetSdk 33
         versionCode 1

@@ -1,4 +1,4 @@
-package com.androiddevs.toolbarmenus
+package com.example.toolbarmenus
 
 import org.junit.Test
 

@@ -1,7 +1,6 @@
-package com.androiddevs.toolbarmenus
+package com.example.toolbarmenus
 
 import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
