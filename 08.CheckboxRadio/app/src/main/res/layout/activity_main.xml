@@ -11,7 +11,7 @@
         android:id="@+id/tvQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="What do you want on your burger?"
+        android:text="What do you want on your sandwich?"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -39,10 +39,10 @@
             android:text="Chicken" />
 
         <RadioButton
-            android:id="@+id/rbPork"
+            android:id="@+id/rbDuck"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pork" />
+            android:text="Duck" />
     </RadioGroup>
 
     <CheckBox
@@ -62,10 +62,10 @@
         app:layout_constraintTop_toBottomOf="@+id/cbCheese" />
 
     <CheckBox
-        android:id="@+id/cbSalad"
+        android:id="@+id/cbDressing"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Salad"
+        android:text="Dressing"
         app:layout_constraintStart_toStartOf="@+id/cbOnions"
         app:layout_constraintTop_toBottomOf="@+id/cbOnions" />
 
@@ -74,8 +74,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Order"
-        app:layout_constraintStart_toStartOf="@+id/cbSalad"
-        app:layout_constraintTop_toBottomOf="@+id/cbSalad" />
+        app:layout_constraintStart_toStartOf="@+id/cbDressing"
+        app:layout_constraintTop_toBottomOf="@+id/cbDressing" />
 
     <TextView
         android:id="@+id/tvOrder"

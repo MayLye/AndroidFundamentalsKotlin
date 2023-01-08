@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.checkboxradio'
+    namespace 'com.example.checkboxradio'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.checkboxradio"
+        applicationId "com.example.checkboxradio"
         minSdk 21
         targetSdk 33
         versionCode 1
