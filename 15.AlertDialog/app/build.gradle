@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.alertdialog'
+    namespace 'com.example.alertdialog'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.alertdialog"
+        applicationId "com.example.alertdialog"
         minSdk 21
         targetSdk 33
         versionCode 1

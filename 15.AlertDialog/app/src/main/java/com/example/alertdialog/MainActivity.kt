@@ -1,6 +1,5 @@
-package com.androiddevs.alertdialog
+package com.example.alertdialog
 
-import android.content.DialogInterface
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast

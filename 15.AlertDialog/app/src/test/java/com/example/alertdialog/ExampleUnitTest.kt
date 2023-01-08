@@ -1,4 +1,4 @@
-package com.androiddevs.alertdialog
+package com.example.alertdialog
 
 import org.junit.Test
 
