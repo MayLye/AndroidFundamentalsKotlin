@@ -11,12 +11,12 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var todoList = mutableListOf(
-            Todo("Follow AndroidDevs", false),
+            Todo("Follow Big Kids", false),
             Todo("Learn Recyclerview", true),
-            Todo("Feed cats", false),
+            Todo("Feed dogs", false),
             Todo("Prank Boss", false),
             Todo("Eat curry", true),
-            Todo("Ask my crush out", false),
+            Todo("Ask my lover out", false),
             Todo("Take shower", false)
         )
 
