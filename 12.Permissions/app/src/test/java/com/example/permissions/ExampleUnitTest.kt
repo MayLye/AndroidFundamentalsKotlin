@@ -1,4 +1,4 @@
-package com.androiddevs.permissions
+package com.example.permissions
 
 import org.junit.Test
 

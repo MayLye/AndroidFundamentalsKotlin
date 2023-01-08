@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.permissions'
+    namespace 'com.example.permissions'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.permissions"
+        applicationId "com.example.permissions"
         minSdk 21
         targetSdk 33
         versionCode 1

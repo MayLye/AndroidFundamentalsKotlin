@@ -1,4 +1,4 @@
-package com.androiddevs.permissions
+package com.example.permissions
 
 import android.Manifest.permission.*
 import android.content.pm.PackageManager
@@ -41,14 +41,16 @@ class MainActivity : AppCompatActivity() {
             permissionsToRequest.add(WRITE_EXTERNAL_STORAGE)
         }
         if (!hasLocationForegroundPermission()) {
+            // ACCESS_COARSE_LOCATION – Allows the API to return the device's approximate location
             permissionsToRequest.add(ACCESS_COARSE_LOCATION)
         }
         if (!hasLocationBackgroundPermission()) {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
+                // ACCESS_BACKGROUND_LOCATION - the user can revoke this permission by choosing that your app should access location information
+                // only in the foreground
                 permissionsToRequest.add(ACCESS_BACKGROUND_LOCATION)
             }
         }
-
         if (permissionsToRequest.isNotEmpty()) {
             ActivityCompat.requestPermissions(this, permissionsToRequest.toTypedArray(), 0)
         }
