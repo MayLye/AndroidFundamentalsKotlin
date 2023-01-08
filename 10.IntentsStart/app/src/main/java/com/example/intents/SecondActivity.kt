@@ -1,4 +1,4 @@
-package com.androiddevs.intents
+package com.example.intents
 
 import android.content.Intent
 import android.os.Bundle

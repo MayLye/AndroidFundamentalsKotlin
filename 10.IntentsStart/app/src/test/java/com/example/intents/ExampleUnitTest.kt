@@ -1,4 +1,4 @@
-package com.androiddevs.intents
+package com.example.intents
 
 import org.junit.Test
 
