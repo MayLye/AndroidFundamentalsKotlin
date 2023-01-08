@@ -1,4 +1,4 @@
-package com.androiddevs.checkboxradio
+package com.example.checkboxradio
 
 import org.junit.Test
 
