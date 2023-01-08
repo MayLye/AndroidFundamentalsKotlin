@@ -1,4 +1,4 @@
-package com.androiddevs.passingdata
+package com.example.passingdata
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -9,7 +9,7 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        // we want to save the name vairable that we put into that intent object in that variable name here and set it equal to intent.
+        // we want to save the name variable that we put into that intent object in that variable name here and set it equal to intent.
         // getStringExtra() method is for getting the data(key) that is sent by the above method.
         // default value means if sthg went wrong with that intent or if that extra we provided doesn't exist.
         // use CTRL + Q for extra documentation.

@@ -1,4 +1,4 @@
-package com.androiddevs.passingdata
+package com.example.passingdata
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -16,8 +16,9 @@ class MainActivity : AppCompatActivity() {
             // convert edittext to String then to integer
             val age = etAge.text.toString().toInt()
             // convert edittext to String
+            val gender = etGender.text.toString()
             val country = etCountry.text.toString()
-            val person = Person(name, age, country) // refer to the Person.class
+            val person = Person(name, age, gender, country) // refer to the Person.class
 
             Intent(this, SecondActivity::class.java).also {
                 // to pass data onto the new activities we use key value pairs inside functions.
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
                 /*
                 it.putExtra("EXTRA_NAME", name) // to extract particular name here, EXTRA_NAME is for unique name.
                 it.putExtra("EXTRA_AGE", age)
+                it.putExtra("EXTRA_GENDER", gender)
                 it.putExtra("EXTRA_COUNTRY", country)
                 */
 

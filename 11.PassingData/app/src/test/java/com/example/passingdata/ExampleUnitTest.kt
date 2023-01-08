@@ -1,4 +1,4 @@
-package com.androiddevs.passingdata
+package com.example.passingdata
 
 import org.junit.Test
 

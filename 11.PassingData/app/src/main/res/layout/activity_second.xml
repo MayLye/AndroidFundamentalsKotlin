@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="12dp"
     tools:context=".SecondActivity">
 
     <TextView
         android:id="@+id/tvPerson"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SecondActivity"
+        android:text="Second Activity"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

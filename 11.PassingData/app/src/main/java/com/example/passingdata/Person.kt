@@ -1,10 +1,11 @@
-package com.androiddevs.passingdata
+package com.example.passingdata
 import java.io.Serializable
 
 // 'data class' tells Kotlin that the only purpose of this class is to hold data.
 data class Person (
     val name: String,
     val age: Int,
+    val gender: String,
     val country: String
 ) : Serializable // Serialization is the process of reading data from an external source and converting it into a runtime object.
 

@@ -12,6 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Name"
+        android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,6 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Age"
+        android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="@+id/etName"
         app:layout_constraintTop_toBottomOf="@+id/etName" />
 
@@ -28,15 +30,25 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Country"
+        android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="@+id/etAge"
         app:layout_constraintTop_toBottomOf="@+id/etAge" />
+
+    <EditText
+        android:id="@+id/etGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"
+        android:minHeight="48dp"
+        app:layout_constraintStart_toStartOf="@+id/etCountry"
+        app:layout_constraintTop_toBottomOf="@+id/etCountry" />
 
     <Button
         android:id="@+id/btnApply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Apply"
-        app:layout_constraintEnd_toEndOf="@+id/etCountry"
-        app:layout_constraintTop_toBottomOf="@+id/etCountry" />
+        app:layout_constraintEnd_toEndOf="@+id/etGender"
+        app:layout_constraintTop_toBottomOf="@+id/etGender" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

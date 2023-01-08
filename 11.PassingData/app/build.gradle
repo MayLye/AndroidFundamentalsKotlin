@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace 'com.androiddevs.passingdata'
+    namespace 'com.example.passingdata'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.androiddevs.passingdata"
+        applicationId "com.example.passingdata"
         minSdk 21
         targetSdk 33
         versionCode 1
