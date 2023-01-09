@@ -1,4 +1,4 @@
-package com.androiddevs.broadcastreceivers
+package com.example.broadcastreceivers
 
 import android.content.Intent
 import android.content.IntentFilter
