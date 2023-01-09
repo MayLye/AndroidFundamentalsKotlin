@@ -1,9 +1,8 @@
-package com.androiddevs.tablayout
+package com.example.tablayout
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import androidx.viewpager2.widget.ViewPager2
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator
 import kotlinx.android.synthetic.main.activity_main.*
@@ -17,7 +16,8 @@ class MainActivity : AppCompatActivity() {
         val images = listOf(
             R.drawable.kermit1,
             R.drawable.kermit2,
-            R.drawable.kermit3
+            R.drawable.kermit3,
+            R.drawable.walle_bg
         )
 
         // to make it swipe, we need ViewPager

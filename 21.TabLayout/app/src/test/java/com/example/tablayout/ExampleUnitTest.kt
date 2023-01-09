@@ -1,4 +1,4 @@
-package com.androiddevs.tablayout
+package com.example.tablayout
 
 import org.junit.Test
 

@@ -1,4 +1,4 @@
-package com.androiddevs.tablayout
+package com.example.tablayout
 
 import android.view.LayoutInflater
 import android.view.View
