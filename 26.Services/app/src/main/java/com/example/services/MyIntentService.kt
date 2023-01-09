@@ -1,4 +1,4 @@
-package com.androiddevs.services
+package com.example.services
 
 import android.app.IntentService
 import android.content.Intent
@@ -16,15 +16,9 @@ class MyIntentService : IntentService("MyIntentService") {
     companion object {
         private lateinit var instance: MyIntentService
         var isRunning = false
-
-        fun stopService() {
-            Log.d("MyIntentService", "Service is stopping...")
-            isRunning = false
-            // this instance is the instance of our account service class.
-            instance.stopSelf()
-        }
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onHandleIntent(p0: Intent?) {
         try {
             isRunning = true

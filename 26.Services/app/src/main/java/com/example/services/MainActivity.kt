@@ -1,4 +1,4 @@
-package com.androiddevs.services
+package com.example.services
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
