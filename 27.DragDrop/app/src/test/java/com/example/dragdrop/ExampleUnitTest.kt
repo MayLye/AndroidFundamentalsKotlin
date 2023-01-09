@@ -1,4 +1,4 @@
-package com.androiddevs.dragdrop
+package com.example.dragdrop
 
 import org.junit.Test
 

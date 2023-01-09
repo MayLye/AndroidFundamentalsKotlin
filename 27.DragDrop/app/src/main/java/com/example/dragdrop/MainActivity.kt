@@ -1,4 +1,4 @@
-package com.androiddevs.dragdrop
+package com.example.dragdrop
 
 import android.content.ClipData
 import android.content.ClipDescription
@@ -32,7 +32,6 @@ class MainActivity : AppCompatActivity() {
             }
 
             it.visibility = View.INVISIBLE
-            true
         }
     }
 
