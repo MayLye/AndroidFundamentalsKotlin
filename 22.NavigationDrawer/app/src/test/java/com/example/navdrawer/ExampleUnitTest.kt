@@ -1,4 +1,4 @@
-package com.androiddevs.navdrawer
+package com.example.navdrawer
 
 import org.junit.Test
 
