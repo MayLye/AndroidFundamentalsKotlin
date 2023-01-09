@@ -1,4 +1,4 @@
-package com.androiddevs.intentservice
+package com.example.intentservice
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

@@ -1,4 +1,4 @@
-package com.androiddevs.intentservice
+package com.example.intentservice
 
 import android.app.IntentService
 import android.content.Intent
@@ -13,7 +13,9 @@ class MyIntentService : IntentService("MyIntentService") {
         instance = this
     }
 
+    // companion object allows you to have properties or functions without having an instance of the class.
     companion object {
+        // lateinit is used to declare those variables that are guaranteed to be initialized in the future.
         private lateinit var instance: MyIntentService
         var isRunning = false
 
@@ -25,6 +27,8 @@ class MyIntentService : IntentService("MyIntentService") {
         }
     }
 
+    @Deprecated("Deprecated in Java")
+    // onHandleIntent() allows you to perform a long running task, for example, waiting for something to happen.
     override fun onHandleIntent(p0: Intent?) {
         try {
             isRunning = true
