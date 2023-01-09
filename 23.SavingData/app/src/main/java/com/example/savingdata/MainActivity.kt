@@ -1,4 +1,4 @@
-package com.androiddevs.savingdata
+package com.example.savingdata
 
 import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
@@ -16,11 +16,17 @@ class MainActivity : AppCompatActivity() {
         btnSave.setOnClickListener {
             val name = etName.text.toString()
             val age = etAge.text.toString().toInt()
+            val country = etCountry.text.toString()
+
+            val isKid = cbKid.isChecked
             val isAdult = cbAdult.isChecked
 
             editor.apply {
                 putString("name", name)
                 putInt("age", age)
+                putString("country", country)
+
+                putBoolean("isKid", isKid)
                 putBoolean("isAdult", isAdult)
                 // commit()
                 // prefer to use apply() so it can run asynchronously so it won't block your main thread.
@@ -33,10 +39,16 @@ class MainActivity : AppCompatActivity() {
             // Shared Preferences allow the activities or applications to store and retrieve data in the form of key and value.
             val name = sharedPref.getString("name", null)
             val age = sharedPref.getInt("age", 0)
+            val country = sharedPref.getString("country", null)
+
+            val isKid = sharedPref.getBoolean("isKid", false)
             val isAdult = sharedPref.getBoolean("isAdult", false)
 
             etName.setText(name)
             etAge.setText(age.toString())
+            etCountry.setText(country)
+
+            cbKid.isChecked = isKid
             cbAdult.isChecked = isAdult
         }
     }

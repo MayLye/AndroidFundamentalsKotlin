@@ -1,4 +1,4 @@
-package com.androiddevs.savingdata
+package com.example.savingdata
 
 import org.junit.Test
 
