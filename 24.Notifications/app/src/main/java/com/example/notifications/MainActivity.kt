@@ -1,4 +1,4 @@
-package com.androiddevs.notifications
+package com.example.notifications
 
 import android.app.NotificationChannel
 import android.app.NotificationManager
@@ -34,8 +34,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         val notification = NotificationCompat.Builder(this, CHANNEL_ID)
-            .setContentTitle("Awesome notification")
-            .setContentText("This is content text")
+            .setContentTitle("Notify me please!")
+            .setContentText("Great content is here......")
             .setSmallIcon(R.drawable.ic_star)
             .setPriority(NotificationCompat.PRIORITY_HIGH)
             .setContentIntent(pendingIntent)
@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
         // 'O' her stands for Oreo.
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             val channel = NotificationChannel(CHANNEL_ID, CHANNEL_NAME, NotificationManager.IMPORTANCE_DEFAULT).apply {
-                lightColor = Color.GREEN
+                lightColor = Color.RED
                 enableLights(true)
             }
             // CTRL+Q to look for object.

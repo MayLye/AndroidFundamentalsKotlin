@@ -1,4 +1,4 @@
-package com.androiddevs.notifications
+package com.example.notifications
 
 import org.junit.Test
 
